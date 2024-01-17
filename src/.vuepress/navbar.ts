@@ -45,6 +45,11 @@ export default navbar([
     ],
   },
   {
+    text: "书籍",
+    icon: "book",
+    link: "book",
+  },
+  {
     text: "V2 文档",
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
