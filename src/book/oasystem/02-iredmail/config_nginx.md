@@ -8,9 +8,9 @@ Nginx为iRedMail安装过程中自动安装，无需另外手动安装。但默�
 
 将证书文件上传到服务器的`/etc/nginx/cert`，当然你也可以放在自己习惯的目录下。
 
-crt文件：`demo.ppsuper.com.pem`
+crt文件：`demo.mydomain.com.pem`
 
-key文件：`demo.ppsuper.com.key`
+key文件：`demo.mydomain.com.key`
 
 ## 修改配置
 
@@ -19,7 +19,7 @@ key文件：`demo.ppsuper.com.key`
 ```nginx
 listen 44444 ssl http2;
 listen [::]:44444 ssl http2;
-server_name demo.ppsuper.com;
+server_name demo.mydomain.com;
 ```
 
 删除`/etc/nginx/sites-enabled/00-default.conf`文件，不开放80端口：

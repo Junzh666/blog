@@ -16,7 +16,7 @@ iRedMail用户其实就是OpenLDAP用户，不建议手动创建，可使用iRed
 编辑`/root/iRedMail-1.6.3/tools/create_mail_user_OpenLDAP.sh`文件，需要修改的内容：
 
 ```shell
-LDAP_SUFFIX="dc=ppsuper,dc=com"        # LDAP后缀
+LDAP_SUFFIX="dc=mydomain,dc=com"        # LDAP后缀
 DEFAULT_PASSWD='12345678'      # 用户默认密码
 USE_DEFAULT_PASSWD='YES'               # 是否启用默认密码
 ```

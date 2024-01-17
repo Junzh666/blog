@@ -65,14 +65,14 @@ services:
       - "host.docker.internal:host-gateway"
     environment:
       - LDAP_SERVER=ldap://host.docker.internal:389
-      - LDAP_BINDDN=cn=Manager,dc=ppsuper,dc=com
+      - LDAP_BINDDN=cn=Manager,dc=mydomain,dc=com
       - LDAP_BINDPASS=<your ldap manage password>
-      - LDAP_BASE_SEARCH=ou=Users,domainName=ppsuper.com,o=domains,dc=ppsuper,dc=com
-      - MAIL_FROM=postmaster@ppsuper.com
+      - LDAP_BASE_SEARCH=ou=Users,domainName=mydomain.com,o=domains,dc=mydomain,dc=com
+      - MAIL_FROM=postmaster@mydomain.com
       - MAIL_FROM_NAME=LDAP账号自助服务平台
       - SMTP_DEBUG=1
-      - SMTP_HOST=demo.ppsuper.com
-      - SMTP_USER=postmaster@ppsuper.com
+      - SMTP_HOST=demo.mydomain.com
+      - SMTP_USER=postmaster@mydomain.com
       - SMTP_PASS=demo@ici.com
       - SMTP_PORT=465
       - SMTP_SECURE_TYPE=tls

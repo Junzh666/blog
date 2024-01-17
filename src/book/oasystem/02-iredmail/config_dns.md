@@ -9,7 +9,7 @@ order: 4
 | 域名   | 类型 | 值                |
 | ---- | -- | ---------------- |
 | @    | A  | `<public ip>`    |
-| @    | MX | mail.ppsuper.com |
+| @    | MX | mail.mydomain.com |
 | demo | A  | `<public ip>`    |
 | mail | A  | `<public ip>`    |
 | imap | A  | `<public ip>`    |
@@ -42,6 +42,6 @@ sudo amavisd-new testkey
 
 如果显示：
 
-`TESTING#1 ppsuper.com: dkim._domainkey.ppsuper.com => pass`
+`TESTING#1 mydomain.com: dkim._domainkey.mydomain.com => pass`
 
 则表示设置成功。

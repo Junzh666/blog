@@ -11,13 +11,14 @@ order: 1
 编辑`/etc/hosts`文件，内容如下：
 
 ```
-127.0.0.1 mail.ppsuper.com sz-demo localhost localhost.localdomain
+127.0.0.1 mail.mydomain.com sz-demo localhost localhost.localdomain
 ```
 
 ## 修改apt源为阿里云源或清华源
+::: tabs
 
-{% tabs %}
-{% tab title="阿里云" %}
+@tab:active 阿里云镜像
+
 ```bash
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 sudo cat > /etc/apt/sources.list << EOF
@@ -37,9 +38,8 @@ deb https://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe 
 deb-src https://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
 EOF
 ```
-{% endtab %}
 
-{% tab title="清华大学" %}
+@tab 清华大学镜像
 ```bash
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 sudo cat > /etc/apt/sources.list << EOF
@@ -59,10 +59,7 @@ deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe m
 # # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
 EOF
 ```
-
-
-{% endtab %}
-{% endtabs %}
+:::
 
 ## 安装iRedMail所需组件
 

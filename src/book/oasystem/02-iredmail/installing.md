@@ -10,7 +10,7 @@ order: 2
 
 进入解压后的iRedMail安装目录，执行安装文件。
 
-```shell
+```bash
 cd /root/iRedMail-x.y.z/
 bash iRedMail.sh
 ```
@@ -33,11 +33,11 @@ iRedMail整个安装过程是需要用户通过交互设定所需的安装参数
 
 ### 交互界面4
 
-![输入：dc=ppsuper.com,dc=com](https://docs.iredmail.org/images/installation/ldap\_suffix.png)
+![输入：dc=mydomain.com,dc=com](https://docs.iredmail.org/images/installation/ldap\_suffix.png)
 
 ### 交互界面5
 
-![输入：demo.ppsuper.com](https://docs.iredmail.org/images/installation/first\_domain.png)
+![输入：demo.mydomain.com](https://docs.iredmail.org/images/installation/first\_domain.png)
 
 ### 交互界面6
 
