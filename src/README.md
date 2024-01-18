@@ -4,9 +4,9 @@ layout: BlogHome
 icon: home
 title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroText: Cheny的博客
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 授人以鱼，不如授人以渔。
 projects:
   - icon: project
     name: 项目名称

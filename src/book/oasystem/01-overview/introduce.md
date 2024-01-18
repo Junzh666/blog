@@ -45,7 +45,7 @@ GitLab的一些主要特点：
 
 ## [NextCloud](broken-reference)
 
-> [Nextcloud ](https://nextcloud.com/)是一个开源的自托管云存储和协作平台。它提供了文件同步、共享和访问，以及日历、联系人管理、邮件等功能，使个人用户和组织能够在一个集成的环境中管理和分享数据。
+> [Nextcloud](https://nextcloud.com/)是一个开源的自托管云存储和协作平台。它提供了文件同步、共享和访问，以及日历、联系人管理、邮件等功能，使个人用户和组织能够在一个集成的环境中管理和分享数据。
 
 Nextcloud 的一些主要特点：
 
@@ -58,4 +58,3 @@ Nextcloud 的一些主要特点：
 ## [OnlyOffice](../07-onlyoffice/page-6.md)
 
 [OnlyOffice](https://www.onlyoffice.com/)是一个扩展nextcloud的插件，用于在线编辑文本文件，目前仅支持主流的文本格式（如：word,excel,txt等），不支持markdown格式在线编辑。
-
