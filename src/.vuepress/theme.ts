@@ -27,12 +27,13 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: '<a href="https://beian.miit.gov.cn">皖ICP备2024032107号-1</a>',
+
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "IT 运维 前端 后端 Python Golang Vue TS",
+    description: "IT 运维 Python Golang Vue TS",
     intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/Junzh666",
