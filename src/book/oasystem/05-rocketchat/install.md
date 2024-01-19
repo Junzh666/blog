@@ -2,6 +2,7 @@
 title: 安装
 order: 1
 date: 2024-01-18
+article: false
 category:
     - linux
     - 运维

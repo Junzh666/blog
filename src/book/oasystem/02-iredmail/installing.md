@@ -2,6 +2,7 @@
 title: 安装过程
 order: 2
 date: 2024-01-17
+article: false
 category:
     - linux
     - 运维

@@ -5,10 +5,11 @@ date: 2024-01-19 17:16:02
 cover: /assets/images/trick_home.png
 sticky: 100
 star: 100
-categories:
+isOriginal: true
+category:
   - 运维
   - linux
-tags:
+tag:
   - 技巧
   - 命令
 ---

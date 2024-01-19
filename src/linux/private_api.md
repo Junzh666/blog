@@ -2,6 +2,7 @@
 title: 搭建私有apt镜像站
 date: 2024-01-19
 star: 1
+isOriginal: true
 category:
     - linux
     - 运维

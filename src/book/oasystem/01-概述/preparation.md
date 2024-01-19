@@ -2,6 +2,7 @@
 title: 准备工作
 order: 3
 date: 2024-01-17
+article: false
 category:
     - linux
     - 运维

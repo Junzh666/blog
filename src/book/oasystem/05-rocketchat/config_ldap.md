@@ -2,6 +2,7 @@
 title: 配置LDAP
 order: 2
 date: 2024-01-18
+article: false
 category:
     - linux
     - 运维

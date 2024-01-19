@@ -3,11 +3,11 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-# heroImage: /assets/images/my-logo.png
+# heroImage: /assets/images/bg2.jpg
 heroText: Cheny
 heroFullScreen: true
 tagline: 人生百态&nbsp;&nbsp;&nbsp;&nbsp;潮起潮落<br>&nbsp;
-bgImage: /assets/images/bg1.jpg
+bgImage: /assets/images/bg.jpg
 projects:
   # - icon: project
   #   name: 项目名称

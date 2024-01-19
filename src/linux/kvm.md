@@ -1,6 +1,7 @@
 ---
 title: Ubuntu下安装并使用KVM虚拟机
 date: 2024-01-19
+isOriginal: true
 category:
     - linux
     - 运维

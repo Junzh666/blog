@@ -2,6 +2,7 @@
 title: 优化配置
 order: 3
 date: 2024-01-18
+article: false
 category:
     - linux
     - 运维

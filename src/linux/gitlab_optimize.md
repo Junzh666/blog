@@ -1,6 +1,7 @@
 ---
 title: Gitlab优化指南
 date: 2024-01-19
+isOriginal: true
 category:
     - linux
     - 运维

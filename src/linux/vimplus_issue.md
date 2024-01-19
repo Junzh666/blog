@@ -3,10 +3,11 @@ title: 解决vimplus中youcompleteme无法使用的问题
 description: 
 date: 2024-01-19 17:08:27
 cover: /assets/images/vimplus-logo.png
-categories:
+isOriginal: true
+category:
   - linux
   - 运维
-tags:
+tag:
   - vim
   - 插件
 ---
