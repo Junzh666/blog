@@ -5,7 +5,6 @@ order: 2
 > [!important]
 > 由于iRedMail集成环境所安装的组件过多，如MySQL, OpenLDAP, Postfix, Dovecot, Amavisd服务将在iRedMail安装过程中被自动安装。请保证系统的纯净性，否则iRedMail将安装失败。
 
-
 ## 开始安装
 
 进入解压后的iRedMail安装目录，执行安装文件。

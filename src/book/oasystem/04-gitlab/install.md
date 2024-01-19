@@ -3,16 +3,20 @@ title: 安装
 order: 1
 ---
 
-## 创建容器：
+## 创建容器
+
 创建工作目录：
+
 ```bash
 mkdir -p ~/work/gitlab && cd ~/work/gitlab
 touch docker-compose.yml
 ```
+
 `docker-compose.yml`文件内容如下：
 
 ::: code-tabs#language
 @tab docker-compose.yml
+
 ```yaml
 version: '3.6'
 services:
@@ -53,10 +57,13 @@ services:
       - './data:/var/opt/gitlab'
     shm_size: '256m'
 ```
+
 :::
-```
+
+```bash
 (&(accountStatus=active)(memberof=cn=GitLab,ou=Groups,domainName=mydomain.com,o=domains,dc=mydomain,dc=com))
 ```
+
 表示LDAP账号为启用状态且属于GitLab组，用于实现用户对应用的使用权限。
 创建容器：`docker compose up -d`
 ::: tip
@@ -65,11 +72,12 @@ Gitlib镜像较大，pull的过程持续时间较长。
 ::: code-tabs#language
 
 ## root密码
+
 GitLab在安装完成后提供了默认的root用户，密码需要以下命令获取:
-::: code-tabs#language
-@tab
+
 ``` bash
-sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
+sudo doc
+ker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 ```
-:::
+
 **该密码为临时密码，请及时修改。**

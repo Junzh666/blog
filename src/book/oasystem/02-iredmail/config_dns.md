@@ -22,7 +22,7 @@ order: 4
 
 ## DKIM记录
 
-### 查询本机域名的p值：
+### 查询本机域名的p值
 
 ```bash
 sudo amavisd-new showkey

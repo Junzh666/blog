@@ -5,16 +5,16 @@ order: 1
 >[!note]
 >大多数ISP会限制25端口（smtp），请与ISP沟通解除25端口限制，否则iRedmail将无法正常发送邮件。
 
-
 ## 设置FQDN
 
 编辑`/etc/hosts`文件，内容如下：
 
-```
+```bash
 127.0.0.1 mail.mydomain.com sz-demo localhost localhost.localdomain
 ```
 
 ## 修改apt源为阿里云源或清华源
+
 ::: tabs
 
 @tab:active 阿里云镜像
@@ -40,6 +40,7 @@ EOF
 ```
 
 @tab 清华大学镜像
+
 ```bash
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 sudo cat > /etc/apt/sources.list << EOF
@@ -59,6 +60,7 @@ deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe m
 # # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
 EOF
 ```
+
 :::
 
 ## 安装iRedMail所需组件

@@ -3,7 +3,7 @@ title: 配置Nginx
 order: 3
 ---
 Nginx为iRedMail安装过程中自动安装，无需另外手动安装。但默认安装的nginx并不能直接拿来正式使用，需要修改配置文件。
-        
+
 ## 上传ssl证书
 
 将证书文件上传到服务器的`/etc/nginx/cert`，当然你也可以放在自己习惯的目录下。
@@ -33,4 +33,3 @@ sudo rm /etc/nginx/sites-enabled/00-default.conf
 ```bash
 sudo service nginx restart
 ```
-

@@ -11,8 +11,9 @@ phpLDAPadmin是一个基于Web的LDAP客户端，它小巧且易于部署，这�
 
 创建docker-compose.yml文件：
 
-{% tabs %}
-{% tab title="docker-compose.yml" %}
+::: code-tabs#language
+@tab docker-compose.yml
+
 ```yaml
 version: "3"
 services:
@@ -37,8 +38,8 @@ services:
         reservations:
            memory: 256M
 ```
-{% endtab %}
-{% endtabs %}
+
+:::
 
 创建容器：`docker compose up -d`
 
@@ -50,8 +51,9 @@ OpenLDAP不建议暴露在公网，请从内网访问和管理。
 
 ## 自助密码修改
 
-{% tabs %}
-{% tab title="docker-compose.yml" %}
+::: code-tabs#language
+@tab docker-compose.yml
+
 ```yaml
 version: '2'
 services:
@@ -83,8 +85,8 @@ services:
       - ./self-service-password/htdocs:/www/ssp
       - ./self-service-password/logs:/www/logs
 ```
-{% endtab %}
-{% endtabs %}
+
+:::
 
 创建容器：`docker compose up -d`
 

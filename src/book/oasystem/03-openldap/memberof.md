@@ -3,6 +3,7 @@ title: memberof
 order: 2
 ---
 ## 关于Group
+
 > [!warning]
 >默认情况下，OpenLDAP的用户组属性为Posixgroup，起与用户之间没有实际对应关系，这会导致LDAP无法根据用户与组之间的隶属关系做查询。而在实际的项目和组织架>构管理中，这种隶属关系的应用很普遍，所以需要启用LDAP的memberOf模块。
 >普遍情况下启动memberOf模块并不复杂，网上的教程和文档也很多，但由于**这里的OpenLDAP是由iRedMail自动安装和配置的**，网上的资源完全无法使用。
@@ -17,30 +18,30 @@ OpenLDAP是在iRedMail的自动安装脚本过程中自动被安装的，我们�
 
 ## 静态模式下配置memberOf
 
-1. 修改`/etc/ldap/slapd.conf`文件，在moduleload back\_monitor的下一行插入2行：
+### 1. 修改`/etc/ldap/slapd.conf`文件，在moduleload back\_monitor的下一行插入2行
 
-```
+```bash
 moduleload memberof
 moduleload refint
 ```
 
-2. 在`database monitor`的上一行添加：
+### 2. 在`database monitor`的上一行添加
 
-```
+```bash
 database config
 access to *
     by dn.exact="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" manage
     by * none
 ```
 
-3. 在`database mdb`的下一行添加：
+### 3. 在`database mdb`的下一行添加
 
-```
+```bash
 overlay memberof
 overlay refint
 ```
 
-4. 刷新配置文件
+### 4. 刷新配置文件
 
 ```bash
 sudo rm -r /etc/ldap/slapd.d
@@ -50,7 +51,7 @@ sudo chown -R openldap:openldap /etc/ldap/slapd.d
 sudo service slapd restar
 ```
 
-5. 创建应用组
+### 5. 创建应用组
 
 ```bash
 cat  > groups.ldif << EOF
@@ -76,6 +77,7 @@ EOF
 
 ldapadd -D "cn=Manager,dc=mydomain,dc=com" -w <password>-x -f  groups.ldif
 ```
+
 > 参考资料：
 > [https://www.openldap.org/doc/admin24/overlays.html](https://www.openldap.org/doc/admin24/overlays.html)
 > [https://forum.iredmail.org/topic8673-general-ldap-setup-question.html](https://forum.iredmail.org/topic8673-general-ldap-setup-question.html)
