@@ -45,9 +45,7 @@ services:
 
 打开浏览器，输入地址：`http://<ip>:8099` 访问LDAP管理页面。
 
-{% hint style="warning" %}
 OpenLDAP不建议暴露在公网，请从内网访问和管理。
-{% endhint %}
 
 ## 自助密码修改
 
