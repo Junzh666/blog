@@ -1,5 +1,12 @@
 ---
 title: Gitlab优化指南
+date: 2024-01-19
+category:
+    - linux
+    - 运维
+tag: 
+    - gitlab
+    - 优化
 ---
 
 ## 在内存受限的环境中运行

@@ -1,7 +1,14 @@
 ---
 title: 配置HTTPS
 order: 2
+date: 2024-01-18
+category:
+    - linux
+    - 运维
+tag:
+    - ldap
 ---
+
 将证书文件copy到容器：
 
 ``` bash

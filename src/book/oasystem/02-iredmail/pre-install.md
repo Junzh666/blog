@@ -1,6 +1,13 @@
 ---
 title: 准备工作
 order: 1
+date: 2024-01-17
+category:
+    - linux
+    - 运维
+tag:
+    - iredmail
+    - 邮件
 ---
 >[!note]
 >大多数ISP会限制25端口（smtp），请与ISP沟通解除25端口限制，否则iRedmail将无法正常发送邮件。

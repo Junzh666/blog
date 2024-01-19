@@ -1,7 +1,15 @@
 ---
 title: 安装
 order: 1
+date: 2024-01-18
+category:
+    - linux
+    - 运维
+tag:
+    - rocketchat
+    - 聊天
 ---
+
 ## 创建容器
 
 ```bash

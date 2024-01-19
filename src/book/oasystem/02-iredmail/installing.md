@@ -1,6 +1,13 @@
 ---
 title: 安装过程
 order: 2
+date: 2024-01-17
+category:
+    - linux
+    - 运维
+tag:
+    - iredmail
+    - 邮件
 ---
 > [!important]
 > 由于iRedMail集成环境所安装的组件过多，如MySQL, OpenLDAP, Postfix, Dovecot, Amavisd服务将在iRedMail安装过程中被自动安装。请保证系统的纯净性，否则iRedMail将安装失败。

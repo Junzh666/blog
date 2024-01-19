@@ -1,6 +1,12 @@
 ---
 title: memberof
 order: 2
+date: 2024-01-18
+category:
+    - linux
+    - 运维
+tag:
+    - LDAP
 ---
 ## 关于Group
 

@@ -1,6 +1,10 @@
 ---
 title: 功能
 order: 2
+date: 2024-01-17
+category:
+    - linux
+    - 运维
 ---
 
 ## 可实现的功能

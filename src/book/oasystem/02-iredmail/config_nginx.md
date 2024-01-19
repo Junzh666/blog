@@ -1,6 +1,13 @@
 ---
 title: 配置Nginx
 order: 3
+date: 2024-01-17
+category:
+    - linux
+    - 运维
+tag:
+    - iredmail
+    - 邮件
 ---
 Nginx为iRedMail安装过程中自动安装，无需另外手动安装。但默认安装的nginx并不能直接拿来正式使用，需要修改配置文件。
 

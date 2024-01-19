@@ -4,11 +4,12 @@ import sidebar from "./sidebar.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://www,ppsuper.com",
 
   author: {
     name: "Cheny",
-    url: "https://mister-hope.com",
+    url: "https://www.ppsuper.com",
+    email: "124236270@qq.com"
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -16,7 +17,7 @@ export default hopeTheme({
   // logo: "https://avatars.githubusercontent.com/u/122454199?v=4",
   logo: "cheny-logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "junzh666/blog",
 
   docsDir: "src",
 

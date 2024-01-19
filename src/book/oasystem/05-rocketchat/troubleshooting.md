@@ -1,6 +1,13 @@
 ---
 title: 解决问题
 order: 3
+date: 2024-01-18
+category:
+    - linux
+    - 运维
+tag:
+    - rocketchat
+    - 聊天
 ---
 
 ## 无法访问market place

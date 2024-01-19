@@ -1,6 +1,12 @@
 ---
 title: Web管理
 order: 1
+date: 2024-01-18
+category:
+    - linux
+    - 运维
+tag:
+    - LDAP
 ---
 
 OpenLDAP会在iRedMail安装过程中自动安装。

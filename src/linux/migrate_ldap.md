@@ -1,5 +1,13 @@
 ---
 title: OpenLDAP的迁移和备份
+date: 2024-01-19
+category:
+    - linux
+    - 运维
+tag: 
+    - 迁移
+    - 备份
+    - LDAP
 ---
 
 ## 原服务器

@@ -1,6 +1,13 @@
 ---
 title: 解决问题
 order: 7
+date: 2024-01-17
+category:
+    - linux
+    - 运维
+tag:
+    - iredmail
+    - 邮件
 ---
 ## iRedMail手法邮件延迟问题
 

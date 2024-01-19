@@ -1,6 +1,13 @@
 ---
 title: 安装
 order: 1
+date: 2024-01-18
+category:
+    - linux
+    - 运维
+tag:
+    - onlyoffice
+    - 在线文档
 ---
 
 ## 创建容器

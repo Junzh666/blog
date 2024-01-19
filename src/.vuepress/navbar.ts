@@ -2,57 +2,67 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  // "/demo/",
+  // {
+  //   text: "博文",
+  //   icon: "pen-to-square",
+  //   prefix: "/posts/",
+  //   children: [
+  //     {
+  //       text: "苹果",
+  //       icon: "pen-to-square",
+  //       prefix: "apple/",
+  //       children: [
+  //         { text: "苹果1", icon: "pen-to-square", link: "1" },
+  //         { text: "苹果2", icon: "pen-to-square", link: "2" },
+  //         "3",
+  //         "4",
+  //       ],
+  //     },
+  //     {
+  //       text: "香蕉",
+  //       icon: "pen-to-square",
+  //       prefix: "banana/",
+  //       children: [
+  //         {
+  //           text: "香蕉 1",
+  //           icon: "pen-to-square",
+  //           link: "1",
+  //         },
+  //         {
+  //           text: "香蕉 2",
+  //           icon: "pen-to-square",
+  //           link: "2",
+  //         },
+  //         "3",
+  //         "4",
+  //       ],
+  //     },
+  //     { text: "樱桃", icon: "pen-to-square", link: "cherry" },
+  //     { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
+  //     "tomato",
+  //     "strawberry",
+  //   ],
+  // },
   {
-    text: "博文",
-    icon: "pen-to-square",
-    prefix: "/posts/",
-    children: [
-      {
-        text: "苹果",
-        icon: "pen-to-square",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
-      },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
-    ],
+    text: "Linux",
+    icon: "/assets/icon/linux-logo.png",
+    link: "linux",
+  },
+  {
+    text: "Python",
+    icon: "/assets/icon/python.svg",
+    link: "python",
+  },
+  {
+    text: "Golang",
+    icon: "/assets/icon/go.svg",
+    link: "golang",
   },
   {
     text: "书籍",
     icon: "book",
     link: "book",
-  },
-  {
-    text: "Linux",
-    icon: "/assets/icon/linux-logo.png",
-    link: "linux",
   },
   {
     text: "V2 文档",

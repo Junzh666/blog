@@ -1,6 +1,13 @@
 ---
 title: 配置DNS
 order: 4
+date: 2024-01-17
+category:
+    - linux
+    - 运维
+tag:
+    - iredmail
+    - 邮件
 ---
 请将`<public ip>`替换为自己服务器的外网IP地址。
 

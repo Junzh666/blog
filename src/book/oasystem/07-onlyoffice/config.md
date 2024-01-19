@@ -1,6 +1,13 @@
 ---
 title: 配置NextCloud使用onlyoffice
 order: 2
+date: 2024-01-18
+category:
+    - linux
+    - 运维
+tag:
+    - onlyoffice
+    - 在线文档
 ---
 
 ## 安装onlyoffice应用

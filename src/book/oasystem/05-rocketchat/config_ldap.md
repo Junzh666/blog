@@ -1,6 +1,13 @@
 ---
 title: 配置LDAP
 order: 2
+date: 2024-01-18
+category:
+    - linux
+    - 运维
+tag:
+    - rocketchat
+    - 聊天
 ---
 >[!warning]
 > 如果rocketchat配置了Manually Approve New Users可能会导致新创建的LDAP用户无法同步。
