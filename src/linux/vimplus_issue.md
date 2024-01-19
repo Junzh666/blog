@@ -5,7 +5,7 @@ date: 2024-01-19 17:08:27
 cover: /assets/images/vimplus-logo.png
 isOriginal: true
 category:
-  - linux
+  - Linux
   - 运维
 tag:
   - vim

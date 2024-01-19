@@ -5,7 +5,7 @@ cover: /assets/images/vsftpd-1.png
 sticky: 99
 isOriginal: true
 category:
-    - linux
+    - Linux
     - 运维
 tag: 
     - ftp

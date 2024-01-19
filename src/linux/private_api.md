@@ -4,7 +4,7 @@ date: 2024-01-19
 star: 1
 isOriginal: true
 category:
-    - linux
+    - Linux
     - 运维
 tag: 
     - 镜像

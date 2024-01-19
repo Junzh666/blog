@@ -4,7 +4,7 @@ order: 7
 date: 2024-01-17
 article: false
 category:
-    - linux
+    - Linux
     - 运维
 tag:
     - iredmail

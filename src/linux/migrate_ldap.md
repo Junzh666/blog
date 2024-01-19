@@ -2,8 +2,9 @@
 title: OpenLDAP的迁移和备份
 date: 2024-01-19
 isOriginal: true
+star: true
 category:
-    - linux
+    - Linux
     - 运维
 tag: 
     - 迁移

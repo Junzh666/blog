@@ -8,7 +8,7 @@ star: 100
 isOriginal: true
 category:
   - 运维
-  - linux
+  - Linux
 tag:
   - 技巧
   - 命令

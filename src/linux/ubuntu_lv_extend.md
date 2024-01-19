@@ -2,8 +2,9 @@
 title: ubuntu系统中增加lv容量
 date: 2024-01-19
 isOriginal: true
+star: true
 category:
-    - linux
+    - Linux
     - 运维
 tag: 
     - ubuntu

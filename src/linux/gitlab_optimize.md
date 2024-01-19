@@ -3,7 +3,7 @@ title: Gitlab优化指南
 date: 2024-01-19
 isOriginal: true
 category:
-    - linux
+    - Linux
     - 运维
 tag: 
     - gitlab

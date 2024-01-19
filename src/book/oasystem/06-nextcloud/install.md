@@ -4,7 +4,7 @@ order: 1
 date: 2024-01-18
 article: false
 category:
-    - linux
+    - Linux
     - 运维
 tag:
     - nextcloud
