@@ -2,7 +2,7 @@
 title: 解决vimplus中youcompleteme无法使用的问题
 description: 
 date: 2024-01-19 17:08:27
-cover: https://raw.githubusercontent.com/chxuan/vimplus/master/screenshots/vimplus-logo.png
+cover: /assets/images/vimplus-logo.png
 categories:
   - linux
   - 运维

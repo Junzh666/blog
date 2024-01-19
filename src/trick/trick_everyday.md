@@ -13,17 +13,7 @@ tags:
   - 命令
 ---
 
-## http.server
-
-在linux系统中，可以通过很多工具和服务传输文件，如ftp、ssh等，如果我们需要快速将某些文件传输给某人，又不想搭建或创建新的用户，可以用下面的命令创建一个web下载页面。
-
-```bash
-python3 -m http.server
-```
-
-它会为**当前**目录下创建一个web下载页面，端口默认是`8000`。当用户下载完毕后，使用`CTRL+c`关闭下载页。
-
-## ipert3
+## iperf3
 
 iperf3 是一个网络性能测试工具，它可以测量 TCP 和 UDP 带宽质量。安装iperf3的方法非常简单：
 
@@ -65,3 +55,13 @@ cloc（Count Lines of Code）是一个用于统计源代码行数的命令行工
 1. 对比两个版本的代码差异：`cloc --diff file_v1 file_v2`
 
 1. 如果要统计在当前目录下所有 Python文件的行数: `cloc --include-lang=Python`
+
+## http.server
+
+在linux系统中，可以通过很多工具和服务传输文件，如ftp、ssh等，如果我们需要快速将某些文件传输给某人，又不想搭建或创建新的用户，可以用下面的命令创建一个web下载页面。
+
+```bash
+python3 -m http.server
+```
+
+它会为**当前**目录下创建一个web下载页面，端口默认是`8000`。当用户下载完毕后，使用`CTRL+c`关闭下载页。

@@ -2,7 +2,6 @@
 title: 介绍
 order: 1
 date: 2024-01-17
-star: 2
 category:
     - linux
     - 运维

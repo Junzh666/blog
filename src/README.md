@@ -3,10 +3,11 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-heroImage: /assets/images/my-logo.png
-heroText: Cheny的博客站点
+# heroImage: /assets/images/my-logo.png
+heroText: Cheny
 heroFullScreen: true
-tagline: 授人以鱼，不如授人以渔。
+tagline: 人生百态&nbsp;&nbsp;&nbsp;&nbsp;潮起潮落<br>&nbsp;
+bgImage: /assets/images/bg1.jpg
 projects:
   # - icon: project
   #   name: 项目名称
