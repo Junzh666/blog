@@ -1,7 +1,6 @@
 ---
 title: 本地快速安装一个vsftp服务
 date: 2024-01-19
-sticky: 100
 cover: /assets/images/vsftpd-1.png
 category:
     - linux
