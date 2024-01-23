@@ -3,6 +3,7 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/book/oasystem/": "structure",
   "/linux/": "structure",
+  "/trick/": "heading",
   
   // "/": [
   //   "",
